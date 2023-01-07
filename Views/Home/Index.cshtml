@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<QuizQuestionModel>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form method="post" action="Home/SubmitAnswers">
+    @for (int i =0; i < Model.Count; i++)
+    {
+        <div>
+            <p>Model[i].QuestionText</p>
+            @for (int k = 0; k < Model[i].PossibleAnswers.Count; k++)
+            {
+                <label>
+                    <input type ="radio" name="UserAnswers[@i]" value="@k"/>
+                    @Model[i].PossibleAnswers[k]
+                </label>
+            }
+        </div>
+    }
+    <button type ="submit">Submit Answers</button>
+    <button type ="reset">Reset</button>
+
+
+
+
+</form>
