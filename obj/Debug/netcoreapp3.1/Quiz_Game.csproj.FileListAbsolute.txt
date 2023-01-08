@@ -1,6 +1,5 @@
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.exe
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.deps.json
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.runtimeconfig.json
@@ -9,7 +8,6 @@ C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Gam
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.pdb
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.Views.dll
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\bin\Debug\netcoreapp3.1\Quiz_Game.Views.pdb
-C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.csprojAssemblyReference.cache
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.AssemblyInfoInputs.cache
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.AssemblyInfo.cs
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.csproj.CoreCompileInputs.cache
@@ -30,9 +28,10 @@ C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Gam
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.RazorTargetAssemblyInfo.cs
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.Views.pdb
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\staticwebassets\Quiz_Game.StaticWebAssets.Manifest.cache
-C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\staticwebassets\Quiz_Game.StaticWebAssets.xml
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.dll
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.pdb
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.genruntimeconfig.cache
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.csproj.CopyComplete
 C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Razor\Views\Home\Results.cshtml.g.cs
+C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.csproj.AssemblyReference.cache
+C:\Users\16182\OneDrive\Purdue\Purdue\Quiz_Game\obj\Debug\netcoreapp3.1\Quiz_Game.GeneratedMSBuildEditorConfig.editorconfig

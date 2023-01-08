@@ -1,29 +1,45 @@
-﻿@{
+﻿<header>
+@{
     ViewData["Title"] = "Home Page";
 }
+</header>
 @model List<QuizQuestionModel>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-<form method="post" action="Home/SubmitAnswers">
-    @for (int i =0; i < Model.Count; i++)
-    {
-        <div>
-            <p>Model[i].QuestionText</p>
-            @for (int k = 0; k < Model[i].PossibleAnswers.Count; k++)
-            {
-                <label>
-                    <input type ="radio" name="UserAnswers[@i]" value="@k"/>
-                    @Model[i].PossibleAnswers[k]
-                </label>
-            }
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <form method="post" action="Home/SubmitAnswers">
+                <div class="card-header">
+                    <h3>Quiz</h3>
+                    <hr />
+                </div>
+                
+                <div class="card-body">
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        <div>
+                            @Model[i].QuestionText
+                            @for (int k = 0; k < Model[i].PossibleAnswers.Count; k++)
+                            {
+                                <p class="clearfix">
+                                <label>
+                                    <input type="radio" name="UserAnswers[@i]" value="@k" />
+                                    @Model[i].PossibleAnswers[k]
+                                </label>
+                                </p>
+
+                            }
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <button type="submit">Submit Answers</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
         </div>
-    }
-    <button type ="submit">Submit Answers</button>
-    <button type ="reset">Reset</button>
-
-
-
-
-</form>
+    </div>
+</div>
